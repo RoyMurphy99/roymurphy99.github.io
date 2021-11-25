@@ -11,14 +11,22 @@ tier), create a resource, then a resource group within that, then create/manage 
 To get the chapter 2 notebook to work properly, I had to copy in the following function definition into a code cell just ater the fastai import cells,
 this function was not written by me but was published on one of the posts on the fastai forums:
 
-def search_images_bing(key, term, max_images: int = 100, **kwargs):\ 
-    params = {'q':term, 'count':max_images}\
-    headers = {"Ocp-Apim-Subscription-Key":key}\
-    search_url = "https://api.bing.microsoft.com/v7.0/images/search"\
-    response = requests.get(search_url, headers=headers, params=params)\
-    response.raise_for_status()\
-    search_results = response.json()\
-    return L(search_results['value'])\
+def search_images_bing(key, term, max_images: int = 100, **kwargs):  
+
+    params = {'q':term, 'count':max_images}  
+    
+    headers = {"Ocp-Apim-Subscription-Key":key}  
+    
+    search_url = "https://api.bing.microsoft.com/v7.0/images/search"  
+    
+    response = requests.get(search_url, headers=headers, params=params)  
+    
+    response.raise_for_status()  
+    
+    search_results = response.json()  
+    
+    return L(search_results['value'])  
+    
     
 I presume the search_images_bing() function supplied with fastai is not compatibile with the latest version of the API, but the above function
 worked when I used it today. 

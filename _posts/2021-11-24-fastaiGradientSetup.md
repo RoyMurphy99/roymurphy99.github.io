@@ -1,4 +1,4 @@
-#Fastai setup using Gradient on Paperspace
+# Fastai setup using Gradient on Paperspace
 
 At the time of me reading Deep learning for Coders with Fastai, the recommended option for running the Jupyter notebooks was to set up a fastai container on
 Gradient in Paperspace at Paperspace.com . 

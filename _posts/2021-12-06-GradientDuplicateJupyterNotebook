@@ -1,0 +1,9 @@
+#Copying a Notebook in Paperspace Gradient
+
+Within the project container for my fastai based project, I have a list of notebooks, one per chapter of the "Deep Learning for coders" book. 
+To use one of the notebooks about classification as a template for my own image classification work I took the following steps:
+
+1. Select your project after logging in to paperspace.
+2. Click on the "open in Jupyter" icon on the left of the screen (it looks a bit like an open eye), once the gradient instance has been set up. 
+3. From the list of notebooks, click in the check box next to the file you want to duplicate.
+4. From the options that appear at the top of the screen, click "Duplicate". 

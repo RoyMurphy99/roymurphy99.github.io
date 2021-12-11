@@ -1,0 +1,13 @@
+Having followed the instructions to create an image classifier to identify different types of bear, in chapter 2 of "Deep learning for coders", I adapted that classifier to 
+discriminate between bare rock and fossil containing rock. 
+
+To do this, I used Bing image search to locate images of plain rock, and also images of fossils. 
+
+I downloaded the images and trained a learner to distinguish between plain rock and fossils. 
+
+The model classified 18 out of 21 images of fossils successfully, and only misclassified 1 image of rock as a fossil. So room for improvement.
+As per the book's recommendations I dont want to spend the rest of my life trying to make it perfect, but I think my image search could be improved
+(to get more relevant images back), which in turn could help to improve model performance. 
+
+I have a small Tello drone, and it would be interesting to see if I could deploy the model for use when controlling the drone from a Python program running
+on my laptop, and how effective it might be out in the real world. 

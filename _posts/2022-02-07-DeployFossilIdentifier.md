@@ -10,3 +10,5 @@ All I needed to do was to follow the instructions to upload a minimal version of
 you need to provide a requirements.txt file on your Github repo that specifies Voila and the fastai version, Binder will set up an appropriate environment using that
 information. Binder also provides you with some markdown text that you can add into your readme.md file, that renders as a binder badge that can be used to launch
 your application from the repo. 
+
+The repo for my fossil identifier is at https://github.com/RoyMurphy99/fossilPredict
